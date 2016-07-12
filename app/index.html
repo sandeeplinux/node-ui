@@ -1,18 +1,18 @@
 <!doctype html>
 <html>
   <body>
-    <h1>Download files using the WebTorrent protocol (BitTorrent over WebRTC).</h1>
+    <h1>Download files using the BitTorrent over WebRTC .</h1>
 
     <form>
       <label for="torrentId">Download from a magnet link: </label>
-      <input name="torrentId", placeholder="magnet:" value="magnet:?xt=urn:btih:6a9759bffd5c0af65319979fb7832189f4f3c35d&dn=sintel.mp4&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com&tr=wss%3A%2F%2Ftracker.webtorrent.io&ws=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2Fsintel-1024-surround.mp4">
+      <input name="torrentId", placeholder="magnet:" value=" ">
       <button type="submit">Download</button>
     </form>
 
     <h2>Log</h2>
     <div class="log"></div>
 
-    <!-- Include the latest version of WebTorrent -->
+    <!-- Include the latest version of Bittorrent -->
     <script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
 
     <script>
